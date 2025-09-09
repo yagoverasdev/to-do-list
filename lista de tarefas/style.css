@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f3e8ff; /* roxo pastel */
+  color: #4b0082; /* roxo escuro para contraste */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.todo-container {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px #d1b3ff;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+
+h1 {
+  color: #8a2be2; /* roxo pastel escuro */
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#task-input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #d1b3ff;
+  outline: none;
+}
+
+#add-task {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background: #d1b3ff;
+  color: #4b0082;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#add-task:hover {
+  background: #c08fff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f5e6ff;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  color: #4b0082;
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: #a05da0;
+}
+
+li button {
+  border: none;
+  background: #d1b3ff;
+  color: #4b0082;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+li button:hover {
+  background: #c08fff;
+}
+
+#clear-tasks {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background: #d1b3ff;
+  color: #4b0082;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#clear-tasks:hover {
+  background: #c08fff;
+}
